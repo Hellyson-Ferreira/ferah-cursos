@@ -1,0 +1,132 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f3f5;
+  height: 100vh;
+  width: 100vw;
+
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background: #fff;
+  padding: 6rem;
+  height: 100%;
+
+}
+
+.loginContainer h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.loginContainer p {
+  font-size: 0.9rem;
+  text-align: start;
+  margin-bottom: 3rem;
+}
+
+.loginContainer form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.loginContainer .inputGroup {
+  margin: 1rem 0 1rem;
+  position: relative;
+}
+
+.loginContainer form .inputGroup input {
+  width: 100%;
+  outline: none;
+  border: 1px solid #D9DCFF;
+
+  padding: 1rem 0.8rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+.loginContainer form .inputGroup input:focus {
+  border: 2px solid #BFC1F9;
+}
+
+
+.loginContainer form .inputGroup label {
+  color: #afafaf;
+  position: absolute;
+  top: 20px;
+  left: 13px;
+}
+
+.loginContainer form .inputGroup input:focus+label {
+  top: -8px;
+  background: #FFFF;
+  padding: 0 3px;
+  font-size: 0.8rem;
+  color: #BFC1F9;
+}
+
+.loginContainer form .inputGroup input:valid+label {
+  top: -8px;
+  background: #FFFF;
+  padding: 0 3px;
+  font-size: 0.8rem;
+  color: #D9DCFF;
+}
+
+.loginContainer form button {
+  border: none;
+  background: #4678EA;
+  padding: 1rem;
+  color: #ffff;
+  border-radius: 5px;
+  margin-bottom:2rem;
+
+}
+
+.loginContainer span {
+  padding: 2rem 0rem;
+ 
+  width: 100%;
+  height: 2px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  margin: 0 2px 0 2px;
+
+ color: #afafaf;
+ margin-bottom: 2rem;
+  
+
+
+}
+.loginContainer span div {
+ 
+  height: 0.1px;
+  width: 37%;
+  background: #b8b8b8;
+}
+
+.buttonGroup {
+
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
